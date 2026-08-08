@@ -1,0 +1,61 @@
+{
+  "Ficha-Curso-Sintesis-Aditiva-Creacion-Musical.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "numbering_ok": true,
+    "exercise_labels": [],
+    "exercise_sequence_ok": false,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0,
+    "escaped_tags": 0,
+    "doctype_count": 1
+  },
+  "Ficha-Trabajo-Sintesis-Aditiva-Creacion-Musical.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "numbering_ok": true,
+    "exercise_labels": [
+      "Ejercicio 1 — Relacionar vocabulario y clasificar magnitudes sonoras",
+      "Ejercicio 2 — Calcular e interpretar los primeros armónicos",
+      "Ejercicio 3 — Calcular, comparar y verificar porcentajes de amplitud",
+      "Ejercicio 4 — Calcular, comparar y verificar períodos",
+      "Ejercicio 5 — Construir una tabla de armónicos e identificar octavas",
+      "Ejercicio 6 — Calcular e interpretar la duración de una envolvente",
+      "Ejercicio 7A — Leer y comparar los parámetros de una señal periódica",
+      "Ejercicio 7B — Calcular y comparar medias ponderadas del espectro",
+      "Ejercicio 8 — Diseñar, representar y justificar un timbre aditivo"
+    ],
+    "exercise_sequence_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0,
+    "escaped_tags": 0,
+    "doctype_count": 1
+  }
+}

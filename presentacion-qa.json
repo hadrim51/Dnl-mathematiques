@@ -1,0 +1,68 @@
+{
+  "20-Fichas-Curso-Presentacion Informe.html": {
+    "duplicates": [],
+    "broken_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "numbering_ok": true,
+    "exercises_ok": true,
+    "activities_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0
+  },
+  "20A-Fichas-Trabajo-Presentación Pública.html": {
+    "duplicates": [],
+    "broken_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "numbering_ok": true,
+    "exercises_ok": true,
+    "activities_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0
+  },
+  "20B-Fichas-Trabajo-Presentación Pública.html": {
+    "duplicates": [],
+    "broken_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "numbering_ok": true,
+    "exercises_ok": true,
+    "activities_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0
+  }
+}

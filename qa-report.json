@@ -1,0 +1,16 @@
+{
+  "index.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "modules_1_to_18": true,
+    "nav_system": true,
+    "decorative_br": 0
+  },
+  "index-ES.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "modules_1_to_18": true,
+    "nav_system": true,
+    "decorative_br": 0
+  }
+}

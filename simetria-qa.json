@@ -1,0 +1,52 @@
+{
+  "07-Fichas-Curso-Los 17 grupos de simetría.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "numbering_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  },
+  "07-Fichas-Trabajo-Los 17 grupos de simetría.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "numbering_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  }
+}
