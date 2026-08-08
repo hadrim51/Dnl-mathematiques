@@ -1,0 +1,48 @@
+{
+  "Modulo-Musica-Hispanica.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "nav_numbers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "numbering_0_to_8_ok": true,
+    "sessions": 4,
+    "sessions_1_to_4_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0,
+    "escaped_tags": 0
+  },
+  "Modulo-Musica-Hispanica-ES-avec-lien-FR.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "nav_numbers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "numbering_0_to_8_ok": true,
+    "sessions": 4,
+    "sessions_1_to_4_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "legacy_nav": 0,
+    "inline_handlers": 0,
+    "escaped_tags": 0
+  }
+}
