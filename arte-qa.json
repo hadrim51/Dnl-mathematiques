@@ -1,0 +1,67 @@
+{
+  "13-Ficha-Curso-Arte Colonial.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "numbering_ok": true,
+    "exercise_numbers": [],
+    "exercises_1_to_16_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  },
+  "13-Ficha-Trabajo-Arte Colonial.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "numbering_ok": true,
+    "exercise_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "exercises_1_to_16_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  }
+}

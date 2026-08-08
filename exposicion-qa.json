@@ -1,0 +1,48 @@
+{
+  "05-Ficha-Curso-Exposicion.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "numbering_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "escaped_tags": 0
+  },
+  "05-Fichas-Trabajo-Exposicion-Museo.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "numbering_ok": true,
+    "nav_ok": true,
+    "sticky": 0,
+    "escaped_tags": 0
+  }
+}
