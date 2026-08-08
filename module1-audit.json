@@ -1,0 +1,60 @@
+{
+  "Seconde-Modulo1.html": {
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "css_external": [
+      "module1.min.css?v=20260808"
+    ],
+    "scripts": [
+      "module1.min.js?v=20260808"
+    ],
+    "unnecessary_escapes": false,
+    "size_bytes": 33707
+  },
+  "Seconde-Modulo1-ES-lie-100.html": {
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "css_external": [
+      "module1.min.css?v=20260808"
+    ],
+    "scripts": [
+      "module1.min.js?v=20260808"
+    ],
+    "unnecessary_escapes": false,
+    "size_bytes": 32603
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Seconde-Modulo3.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "sections_1_to_4_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_1_to_5_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  },
+  "Seconde-Modulo3-ES-avec-lien-FR.html": {
+    "duplicate_ids": [],
+    "broken_nav_targets": [],
+    "section_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "sections_1_to_4_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_1_to_5_ok": true,
+    "nav_ok": true,
+    "legacy_nav": 0,
+    "sticky": 0,
+    "escaped_tags": 0
+  }
+}
