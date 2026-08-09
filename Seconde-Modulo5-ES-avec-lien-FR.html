@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="Módulo 5 de DNL Matemáticas en español: Gaudí, funciones, curvas, arquitectura matemática, modelización y maqueta final." name="description"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Seconde — Módulo 5 — Gaudí, funciones y arquitectura matemática</title>
+<style>:root{--azul:#2f80a0;--azul-oscuro:#1f5f8b;--azul-claro:#eaf6fb;--verde:#4f9b7a;--verde-claro:#edf8f2;--menta:#7bbcb0;--arena:#f4fbfa;--rojo:#bf5b61;--gris:#4a6870;--texto:#24383f;--blanco:#ffffff;--sombra:0 12px 32px rgba(47,128,160,.14);--sombra-suave:0 6px 18px rgba(0,0,0,.07);--radio:18px}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Georgia,'Times New Roman',serif;color:var(--texto);line-height:1.72;background:radial-gradient(circle at top left,rgba(125,185,200,.22),transparent 34%),radial-gradient(circle at top right,rgba(79,155,122,.18),transparent 32%),linear-gradient(135deg,#eaf6fb 0%,#f4fbfa 52%,#edf8f2 100%);min-height:100vh}a{color:var(--azul);text-decoration:none;font-weight:700}a:hover{text-decoration:underline}.header{position:relative;overflow:hidden;color:#fff;background:linear-gradient(135deg,rgba(31,95,139,.96),rgba(47,125,115,.90)),url('https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1600&q=80') center/cover;border-bottom:7px solid #9fd3c9;box-shadow:var(--sombra)}.header:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 18% 22%,rgba(255,255,255,.20),transparent 18%),radial-gradient(circle at 82% 12%,rgba(255,255,255,.14),transparent 20%);pointer-events:none}.header-content{position:relative;max-width:1180px;margin:0 auto;padding:68px 22px 48px;text-align:center}.header h1{font-size:clamp(2.15rem,4.7vw,4.2rem);line-height:1.08;margin-bottom:14px;text-shadow:2px 3px 12px rgba(0,0,0,.32)}.subtitle{font-size:clamp(1.05rem,2vw,1.35rem);opacity:.98;margin:8px auto;max-width:980px}.level{display:inline-block;margin-top:16px;padding:9px 16px;border-radius:999px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.38);font-weight:700;backdrop-filter:blur(8px)}.progress-bar-wrapper{max-width:760px;margin:28px auto 0;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:6px;box-shadow:inset 0 1px 5px rgba(0,0,0,.18)}.progress-bar{height:30px;border-radius:999px;background:rgba(255,255,255,.28);overflow:hidden}.progress-fill{height:100%;width:0%;display:flex;align-items:center;justify-content:center;border-radius:999px;background:linear-gradient(90deg,#4f9b7a,#7bbcb0,#2f80a0);font-weight:800;color:white;transition:width .45s ease}.container{max-width:1240px;margin:42px auto;padding:0 18px}.overview,.module-competences,.pedagogy-section,.session,.container>div[style]{background:rgba(255,255,255,.96)!important;border-radius:var(--radio)!important;box-shadow:var(--sombra)!important;border-left:7px solid var(--azul);padding:34px;margin:30px 0;backdrop-filter:blur(4px)}.overview{border-left-color:var(--verde)}.module-competences{border-left-color:var(--azul)}.pedagogy-section{border-left-color:var(--menta)}h2{font-size:clamp(1.65rem,3vw,2.35rem);line-height:1.2;margin-bottom:18px;color:var(--azul)}h3{font-size:clamp(1.28rem,2.1vw,1.7rem);line-height:1.25;margin:10px 0 12px;color:#225c65}p{margin:10px 0;text-align:justify}.small-note{font-size:.97rem;color:#5f7880;background:#f3f8f8;border-left:4px solid #a9d4df;padding:10px 12px;border-radius:10px;margin:10px 0 16px}.synthesis,.session-focus,.video-link,.badge-innov{border-radius:14px;padding:16px 18px;margin:16px 0;box-shadow:var(--sombra-suave)}.synthesis{background:linear-gradient(135deg,#f4fbfa,#fff);border-left:5px solid var(--menta);color:#315f63}.session-focus{background:linear-gradient(135deg,#edf8f2,#fff);border-left:5px solid var(--verde)}.video-link{background:linear-gradient(135deg,#eaf6fb,#fff);border-left:5px solid var(--azul)}.badge-innov{background:linear-gradient(135deg,#eef8f6,#fff);border-left:5px solid #2f7d73;font-size:.96rem}.comp-grid,.pedagogy-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.comp-item,.ped-card{grid-column:span 4;background:linear-gradient(135deg,#f4fbfa,#fff);border:1px solid #bfe3dd;border-radius:16px;padding:18px;box-shadow:0 5px 16px rgba(47,128,160,.10);transition:transform .22s ease,box-shadow .22s ease}.comp-item:hover,.ped-card:hover,.session:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(47,128,160,.18)}.comp-item strong{display:block;color:var(--azul);font-size:1.05rem;margin-bottom:8px}.ped-card h3{margin-color:#225c65}ul,ol{margin:10px 0 10px 22px}li{margin:6px 0}.tag,.check{display:inline-block;border-radius:999px;font-weight:800}.tag{background:#eef8f6;color:#225c65;padding:6px 11px;margin:4px 6px 4px 0;border:1px solid #bfe3dd}.check{background:#edf8f2;color:#2f6f5e;padding:4px 9px;margin:2px;border:1px solid #bfe7d4;font-size:.88rem}table.matrix{width:100%;border-collapse:separate;border-spacing:0;margin-top:22px;background:#fff;border-radius:16px;overflow:hidden;box-shadow:var(--sombra-suave)}.matrix th,.matrix td{padding:13px 14px;border-bottom:1px solid #d9e8e8;vertical-align:top}.matrix th{background:linear-gradient(135deg,#2f80a0,#4f9b7a);color:#fff;text-align:left}.matrix tr:nth-child(even) td{background:#f8fbfb}.matrix tr:last-child td{border-bottom:0}.nav{position:static;z-index:30;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border:1px solid #d9e8e8;border-radius:18px;box-shadow:var(--sombra-suave);padding:14px 16px;margin:32px 0}.nav-title{font-weight:900;color:#1f5f8b;margin-bottom:10px}.nav-inner{display:flex;flex-wrap:wrap;gap:10px}.nav-inner a{background:#eef8f6;color:#225c65;border:1px solid #bfe3dd;border-radius:999px;padding:8px 12px}.nav-inner a:hover{background:#dff1ed;text-decoration:none}.session{position:relative;border-left-color:#2f7d73;padding-left:86px;overflow:hidden}.session:before{content:"";position:absolute;right:-80px;top:-80px;width:190px;height:190px;border-radius:50%;background:rgba(79,155,122,.08)}.session-number{position:absolute;left:24px;top:28px;width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--azul),var(--verde));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:1.25rem;box-shadow:var(--sombra-suave)}.session-duration{display:inline-block;background:#eaf6fb;color:#1f5f8b;border-radius:999px;padding:5px 12px;font-weight:800;margin:4px 0 12px;text-align:left}.session-description{background:#fff;border-left:4px solid #c5dcdf;padding:10px 12px;border-radius:10px;margin:10px 0;color:#4a6870}.ficha-link{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.btn-ficha{display:inline-block;background:linear-gradient(135deg,#2f80a0,#7db9c8);color:white!important;border-radius:999px;padding:10px 15px;box-shadow:var(--sombra-suave);text-decoration:none!important}.btn-ficha:nth-child(2){background:linear-gradient(135deg,#2f7d73,#7bbcb0)}.btn-ficha:hover{filter:brightness(1.05);transform:translateY(-1px)}.btn-complete{border:0;border-radius:999px;background:linear-gradient(135deg,#4f9b7a,#7cc5a2);color:white;font-weight:900;padding:11px 18px;cursor:pointer;box-shadow:var(--sombra-suave);font-family:inherit;font-size:1rem}.btn-complete:hover{filter:brightness(1.05);transform:translateY(-1px)}.btn-complete:disabled{background:#90a4ae;cursor:default;transform:none}.footer{margin-top:55px;background:#24383f;color:#fff;text-align:center;padding:30px 18px}.footer p{text-align:center;margin:0}@media(max-width:950px){.comp-item,.ped-card{grid-column:span 6}.session{padding-left:72px}.container{margin-top:26px}}@media(max-width:680px){.header-content{padding:48px 16px 34px}.overview,.module-competences,.pedagogy-section,.session,.container>div[style]{padding:24px!important}.comp-item,.ped-card{grid-column:span 12}.session{padding-left:24px;padding-top:78px}.session-number{left:24px;top:24px}.nav{position:relative}.matrix{font-size:.92rem}.matrix th,.matrix td{padding:9px}}@media print{body{background:white}.nav,.btn-complete{display:none!important}.overview,.module-competences,.pedagogy-section,.session{box-shadow:none!important;break-inside:avoid}.header{box-shadow:none}.container{max-width:100%;margin:0}.footer{background:white;color:#000}}.footer{background:linear-gradient(90deg,#22302f,#0f5554,#5f2b1b)!important;color:#fff!important;padding:40px 20px!important;text-align:center!important;margin-top:80px!important;border-top:5px solid #d6a642!important;}.footer-content{max-width:1200px;margin:0 auto;}.footer p{margin-bottom:0!important;text-align:center!important;color:#fff!important;}:root{--nav-accent:#2f80a0;}.nav{background:white !important;border-radius:12px !important;padding:18px 24px !important;margin-bottom:40px !important;box-shadow:0 6px 18px rgba(0,0,0,0.06) !important;border-left:5px solid var(--nav-accent,#7d3c1d) !important;border-bottom:none !important;color:#333 !important;position:static !important;!important;z-index:auto !important;overflow:visible !important;white-space:normal !important;}.nav-title{color:var(--nav-accent,#7d3c1d) !important;font-weight:bold !important;margin-bottom:10px !important;}.nav-inner{display:flex !important;flex-wrap:wrap !important;gap:10px 18px !important;}.nav a{color:var(--nav-accent,#7d3c1d) !important;text-decoration:none !important;font-weight:bold !important;font-size:0.98em !important;background:transparent !important;border:0 !important;border-radius:0 !important;padding:0 !important;margin:0 !important;box-shadow:none !important;display:inline !important;}.nav a:hover,.nav a:focus{text-decoration:underline !important;outline:2px solid rgba(125,60,29,.25) !important;outline-offset:3px !important;border-radius:6px !important;color:var(--nav-accent,#7d3c1d) !important;background:transparent !important;}@media (max-width:768px){.nav-inner{flex-direction:column !important;gap:6px !important;}}.top-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:18px;position:relative;z-index:5}.lang-switch{display:inline-block;padding:12px 28px;border-radius:8px;font-weight:bold;text-decoration:none;background:linear-gradient(135deg,#fffaf0,#f2c14e)!important;color:#271d15!important;border:1px solid rgba(39,29,21,.18)!important;box-shadow:0 4px 12px rgba(0,0,0,.18)!important}.lang-switch:hover{background:linear-gradient(135deg,#f2c14e,#d9a441)!important;color:#271d15!important;text-decoration:none!important}.footer{background:linear-gradient(90deg,#22302f,#0f5554,#5f2b1b)!important;color:#fff!important;text-align:center!important;border-top:5px solid #d6a642!important}.footer p{color:#fff!important;text-align:center!important;margin:0!important}.session-completed{outline:3px solid rgba(31,138,112,.22)}.ficha-link{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.nav{position:static!important;z-index:auto!important;margin:32px 0!important;padding:18px 24px!important;overflow:visible!important;white-space:normal!important;background:#fff!important;color:#24383f!important;border:0!important;border-left:5px solid #2f80a0!important;border-bottom:3px solid #7bbcb0!important;border-radius:12px!important;box-shadow:0 6px 18px rgba(0,0,0,.06)!important}.nav-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:8px 12px!important}.nav-inner>strong{flex-basis:100%;color:#1f5f8b!important;font-weight:900!important}.nav-inner>a{display:inline-block!important;margin:0!important;padding:7px 11px!important;border:1px solid #bfe3dd!important;border-radius:999px!important;background:#eef8f6!important;color:#225c65!important;text-decoration:none!important;font-weight:800!important}.nav-inner>a:is(:hover,:focus-visible){background:#2f80a0!important;color:#fff!important}@media(max-width:680px){.nav-inner{display:grid!important;grid-template-columns:1fr!important;gap:6px!important}}@media print{.nav{display:none!important}}</style>
+
+
+</head>
+<body>
+<div class="header" id="top">
+<div class="header-content"><div class="top-actions"><a aria-label="Abrir la versión francesa del módulo" class="lang-switch" href="Seconde-Modulo5.html" rel="noopener">🇫🇷 Versión francesa</a></div>
+<h1>Seconde — Módulo 5 — Gaudí, funciones y arquitectura matemática</h1>
+<p class="subtitle">Sagrada Familia · Park Güell · Casa Batlló · funciones, curvas, estructuras y maqueta final</p>
+<p class="level">DNL Matemáticas en español · 5 sesiones · 6 horas</p>
+<div class="progress-bar-wrapper">
+<div class="progress-bar">
+<div class="progress-fill" id="progressBar">0%</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="overview" id="vision-general">
+<h2>0. Visión general</h2>
+<p>
+ Este <strong>módulo 5</strong> propone una aproximación interdisciplinar a la obra de Antoni Gaudí a través del estudio de formas geométricas, curvas y modelos matemáticos presentes en la arquitectura modernista catalana. El objetivo es que el alumnado relacione observación estética, razonamiento matemático y comprensión estructural en el análisis de edificios emblemáticos.
+</p>
+<p>
+ A partir de ejemplos como la Sagrada Familia, el Park Güell y la Casa Batlló, el módulo introduce el análisis de funciones lineales, parábolas, catenarias, espirales y otros modelos de crecimiento o equilibrio. El trabajo combina lectura visual, cálculo, modelización digital y producción material para que las matemáticas se perciban como una herramienta útil para comprender decisiones arquitectónicas concretas.
+</p>
+<p>
+ La secuencia se organiza en cinco momentos: (1) Gaudí y el modernismo catalán, (2) funciones lineales y columnas inclinadas, (3) catenarias, parábolas y arcos, (4) espirales y ornamentación y (5) maqueta integradora. El conjunto favorece la transferencia entre arte, geometría, física y comunicación oral en español.
+</p>
+<div class="synthesis">
+<strong>Síntesis del módulo:</strong><br/>
+ El módulo muestra cómo la observación de la naturaleza, la exploración formal y la comprensión matemática pueden converger en una arquitectura innovadora. Las curvas, las proporciones y las estructuras no se presentan como elementos abstractos, sino como respuestas visuales y técnicas a problemas concretos de diseño, estabilidad y construcción.
+ </div>
+<div class="synthesis"><strong>Coherencia pedagógica:</strong> el módulo reúne las fichas 21 a 25 en una progresión única: contextualizar, leer formas, modelizar, calcular, validar, construir y mediar en español. Cada sesión conduce hacia la maqueta final sin salir del marco de Seconde.</div></div>
+<div class="module-competences" id="competencias-modulo">
+<h2>1. Competencias</h2>
+<p class="small-note">Marco común para las sesiones y las producciones del módulo. La progresión conserva la lógica del módulo: observar → modelizar → calcular → validar → crear → mediar.</p>
+<div class="comp-grid">
+<div class="comp-item"><strong>C1 · Contextualizar una obra arquitectónica</strong><br/>Situar a Antoni Gaudí, el modernismo catalán y las obras estudiadas en su contexto histórico, urbano, artístico, técnico y cultural.</div>
+<div class="comp-item"><strong>C2 · Leer formas y estructuras</strong><br/>Identificar líneas, curvas, columnas, arcos, bóvedas, espirales, superficies y elementos constructivos en imágenes, planos y maquetas.</div>
+<div class="comp-item"><strong>C3 · Calcular y modelizar</strong><br/>Usar pendientes, funciones afines, funciones cuadráticas, proporciones, escalas, tablas de valores, radios, parámetros y estimaciones.</div>
+<div class="comp-item"><strong>C4 · Interpretar y validar modelos</strong><br/>Comparar modelo matemático y realidad arquitectónica, justificar límites, controlar errores y verificar coherencia de resultados.</div>
+<div class="comp-item"><strong>C5 · Crear y construir</strong><br/>Producir esquemas, modelos con una herramienta digital guiada, motivos ornamentales, piezas de maqueta y soluciones técnicas con criterios explícitos.</div>
+<div class="comp-item"><strong>C6 · Comunicar y mediar en español</strong><br/>Explicar procedimientos, vocabulario técnico, decisiones de diseño y vínculos culturales mediante una presentación oral o escrita.</div>
+</div>
+<table aria-label="Correspondencia entre sesiones, fichas y competencias del módulo 5" class="matrix">
+<thead><tr><th>Sesión</th><th>Recursos asociados</th><th>Competencias dominantes</th><th>Producción esperada</th></tr></thead>
+<tbody>
+<tr><td>1. Gaudí y modernismo</td><td>Ficha Curso + ficha de trabajo de descubrimiento transversal de curvas matemáticas.</td><td><span class="check">C1</span> <span class="check">C2</span> <span class="check">C6</span></td><td>Comentario guiado de imágenes y síntesis sobre naturaleza, forma y arquitectura.</td></tr>
+<tr><td>2. Funciones lineales</td><td>Ficha Curso + 16 ejercicios sobre pendientes, rectas, columnas inclinadas y cargas.</td><td><span class="check">C2</span> <span class="check">C3</span> <span class="check">C4</span> <span class="check">C6</span></td><td>Esquema comentado de elementos lineales con cálculos de pendiente y lectura estructural.</td></tr>
+<tr><td>3. Parábolas, arcos y bóvedas</td><td>Ficha Curso + 16 ejercicios sobre funciones cuadráticas, arcos, bóvedas y límites del modelo.</td><td><span class="check">C2</span> <span class="check">C3</span> <span class="check">C4</span> <span class="check">C6</span></td><td>Modelo parabólico de una bóveda, tabla de valores y explicación arquitectónica.</td></tr>
+<tr><td>4. Espirales y crecimiento</td><td>Ficha Curso + 16 ejercicios sobre espirales, Fibonacci, crecimiento exponencial y ornamentación.</td><td><span class="check">C2</span> <span class="check">C3</span> <span class="check">C5</span> <span class="check">C6</span></td><td>Croquis, modelo digital o motivo ornamental justificado con vocabulario matemático.</td></tr>
+<tr><td>5. Maqueta integradora</td><td>Ficha Curso + 16 ejercicios sobre escala, materiales, equipos, control de calidad y presentación.</td><td><span class="check">C3</span> <span class="check">C4</span> <span class="check">C5</span> <span class="check">C6</span></td><td>Plan de maqueta, reparto de tareas, controles de calidad y mediación oral final.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="pedagogy-section" id="marco-pedagogico">
+<h2>2. Marco pedagógico</h2>
+<p class="small-note">Resumen de objetivos, progresión, evaluación y diferenciación para una puesta en práctica inmediata.</p>
+<div>
+<span class="tag">DNL Matemáticas en español</span>
+<span class="tag">español matemático y cultural preciso</span>
+<span class="tag">Funciones • Curvas • Modelización</span>
+<span class="tag">Arquitectura • Arte • Biomimética</span>
+</div>
+<div class="pedagogy-grid">
+<div class="ped-card">
+<h3>Objetivos generales</h3>
+<ul>
+<li>Identificar y modelizar <b>funciones y curvas</b> presentes en la obra de Gaudí (lineales, parábolas, espirales, catenarias).</li>
+<li>Relacionar <b>principios matemáticos</b> (pendiente, parámetro, crecimiento) con <b>decisiones arquitectónicas</b> (cargas, estabilidad, composición).</li>
+<li>Construir y verificar modelos con una herramienta digital guiada y comunicar procedimientos con vocabulario académico en español.</li>
+<li>Sintetizar los aprendizajes en una <b>maqueta integradora</b> que combine rigor, legibilidad y cuidado estético.</li>
+</ul>
+</div>
+<div class="ped-card">
+<h3>Progresión en 5 tiempos</h3>
+<ol style="margin-left:18px; color:#444">
+<li><b>Descubrimiento:</b> Gaudí y el modernismo catalán (contexto + mirada).</li>
+<li><b>Aproximación técnica:</b> funciones lineales (pendiente, ángulos, cargas).</li>
+<li><b>Modelización:</b> parábolas, catenarias y arcos.</li>
+<li><b>Extensión:</b> espirales (coordenadas polares, crecimiento natural).</li>
+<li><b>Síntesis colectiva:</b> maqueta de la Sagrada Familia y presentación pública.</li>
+</ol>
+<div class="badge-innov"><b>Innovación:</b> producción tangible en cada etapa: cálculo, modelo con herramienta digital guiada, esquema, pieza de maqueta y mediación.</div>
+</div>
+<div class="ped-card">
+<h3>Materiales y herramientas</h3>
+<ul>
+<li>Imágenes de alta calidad de la Sagrada Familia, el Park Güell y la Casa Batlló, con rejillas de análisis visual.</li>
+<li>Herramienta digital guiada (2D/3D) para curvas y parámetros; calculadora y hoja de cálculo si es necesario.</li>
+<li>Material de geometría (regla, compás, transportador) + plantillas de funciones.</li>
+<li>Materiales para la maqueta: cartón pluma, varillas, adhesivo e iluminación opcional.</li>
+</ul>
+</div>
+<div class="ped-card">
+<h3>Evaluación continua (formativa)</h3>
+<ul>
+<li>Rejillas: exactitud de cálculos, pertinencia del modelo, claridad de representaciones.</li>
+<li>Producciones: croquis, planos, ecuaciones justificadas, capturas realizadas con una herramienta digital guiada, pieza de maqueta.</li>
+<li>Autoevaluación: progreso matemático y lingüístico (metacognición).</li>
+<li>Evaluación pública: comentarios de mejora durante la presentación final (maqueta + oral).</li>
+</ul>
+</div>
+<div class="ped-card">
+<h3>Diferenciación e inclusión</h3>
+<ul>
+<li><b>Apoyo:</b> plantillas guiadas, parámetros fijados, tutoría en parejas y roles valorados.</li>
+<li><b>Consolidación:</b> cálculos de pendiente, tablas de valores, verificación con croquis y explicación oral guiada.</li>
+<li><b>Profundización:</b> catenaria (cadena invertida), comparación con parábolas y validación de parámetros.</li>
+<li><b>Desafío:</b> mediación cultural, mejora de la maqueta, argumentación estructural y glosario visual durante la exposición.</li>
+</ul>
+</div>
+<div class="ped-card">
+<h3>Aperturas interdisciplinarias</h3>
+<ul>
+<li>Física: estática, compresión/tracción, equilibrio y cargas.</li>
+<li>Artes y tecnología: biomimética, diseño paramétrico, trencadís y composición.</li>
+<li>Historia: modernismo catalán, Barcelona de finales del siglo XIX y mecenazgo artístico.</li>
+</ul>
+</div>
+</div>
+</div>
+<nav aria-label="Navegación del módulo" class="nav"><div class="nav-inner"><strong>📍 Navegación:</strong><a href="#vision-general">0. Visión general</a><a href="#competencias-modulo">1. Competencias</a><a href="#marco-pedagogico">2. Marco pedagógico</a><a href="#sesion1">3. Sesión 1</a><a href="#sesion2">4. Sesión 2</a><a href="#sesion3">5. Sesión 3</a><a href="#sesion4">6. Sesión 4</a><a href="#sesion5">7. Sesión 5</a><a href="#sintesis-pedagogica">8. Síntesis</a><a href="#top">↑ Arriba</a></div></nav>
+<div class="sessions-container">
+<div class="session" id="sesion1">
+<div class="session-number">1</div>
+<h2>3. Sesión 1</h2>
+<p class="session-duration">⏱ 60 minutos</p>
+<p class="small-note"><strong>Competencias principales:</strong> C1 contextualizar · C2 leer formas · C6 comunicar una observación arquitectónica.</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> situar la obra de Gaudí en su contexto histórico y artístico, identificar rasgos del modernismo catalán y formular preguntas de observación sobre arquitectura y geometría.</p><p><strong>Producción esperada:</strong> comentario guiado de imágenes y breve síntesis oral o escrita sobre la relación entre naturaleza, forma y arquitectura.</p></div>
+<p class="session-description">
+<strong>Situación de partida:</strong> aproximación a la obra de Antoni Gaudí (1852-1926) a partir de la observación de edificios emblemáticos. El alumnado identifica formas curvas, soluciones decorativas y referencias a la naturaleza sin partir de la idea simplificadora de que la arquitectura de Gaudí excluye por completo la línea recta.
+</p>
+<div class="video-link">
+ 🎬 <strong>Vídeo sugerido:</strong>
+<a href="https://www.youtube.com/watch?v=Mgo-iQqRpLI" rel="noopener" target="_blank">
+ Las matemáticas detrás de los diseños de Gaudí
+ </a>
+ (6 minutos: introducción a las matemáticas en la obra de Gaudí)
+</div>
+<p class="session-description">
+<strong>Contextualización:</strong> presentación de Gaudí en el marco del modernismo catalán y de la Barcelona de finales del siglo XIX y comienzos del XX. Se introduce la idea de una arquitectura que dialoga con la naturaleza y con nuevas soluciones estructurales.
+</p>
+<p class="session-description">
+<strong>Lectura visual:</strong> análisis comparado de la Sagrada Familia, el Park Güell, la Casa Batlló y la Casa Milà para identificar materiales, ritmos, superficies, líneas de fuerza y efectos de movimiento.
+</p>
+<p class="session-description">
+<strong>Pregunta guía:</strong> ¿qué relaciones pueden establecerse entre belleza, observación de la naturaleza y pensamiento matemático en la arquitectura de Gaudí?
+</p>
+<div class="ficha-link">
+<a class="btn-ficha" href="21-Fichas-Curso-Gaudi-curvas.html" rel="noopener" target="_blank">📄 Ficha Curso 21: Gaudí y curvas matemáticas</a>
+<a class="btn-ficha" href="21-Fichas-Trabajo-Gaudi-curvas.html" rel="noopener" target="_blank">📄 Ficha Trabajo 21: descubrimiento transversal de curvas</a>
+</div>
+<button class="btn-complete" data-session="1" type="button">✅ Marcar la sesión 1 completada</button>
+</div>
+<div class="session" id="sesion2">
+<div class="session-number">2</div>
+<h2>4. Sesión 2</h2>
+<p class="session-duration">⏱ 60 minutos</p>
+<p class="small-note"><strong>Competencias principales:</strong> C2 leer estructuras · C3 calcular pendientes y rectas · C4 validar un modelo · C6 explicar el procedimiento.</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> interpretar pendientes, ángulos e inclinaciones en elementos arquitectónicos y relacionar la representación lineal con problemas de equilibrio y reparto de cargas.</p><p><strong>Producción esperada:</strong> esquema comentado de columnas inclinadas con cálculos de pendiente y representación en un plano.</p></div>
+<p class="session-description">
+<strong>Situación de partida:</strong> análisis de columnas inclinadas y otros elementos rectilíneos presentes en la obra de Gaudí para comprender que las funciones lineales también pueden intervenir en una arquitectura dominada por la curva.
+</p>
+<div class="video-link">
+ 🎬 <strong>Vídeo sugerido:</strong>
+<a href="https://www.youtube.com/watch?v=im6WlsBl6Jo" rel="noopener" target="_blank">
+ La Sagrada Familia: un templo geométricamente calculado
+ </a>
+ (fragmento seleccionado: geometría y estructura)
+</div>
+<p class="session-description">
+<strong>Cálculo de pendientes:</strong> traducción de inclinaciones arquitectónicas a razones numéricas, pendientes y ángulos, con interpretación geométrica y física básica.
+</p>
+<p class="session-description">
+<strong>Lectura estructural:</strong> reflexión sobre la relación entre inclinación, estabilidad y transmisión de cargas, sin convertir la sesión en un curso técnico de resistencia de materiales.
+</p>
+<p class="session-description">
+<strong>Modelización:</strong> representación de segmentos y rectas en herramienta digital guiada o en papel cuadriculado para visualizar diferencias entre columnas verticales e inclinadas.
+</p>
+<div class="ficha-link">
+<a class="btn-ficha" href="22-Fichas-Curso-Gaudi-lineales-estructuras.html" rel="noopener" target="_blank">📄 Ficha Curso 22: funciones lineales y estructuras</a>
+<a class="btn-ficha" href="22-Fichas-Trabajo-Gaudi-lineales-estructuras.html" rel="noopener" target="_blank">📄 Ficha Trabajo 22: funciones lineales y estructuras</a>
+</div>
+<button class="btn-complete" data-session="2" type="button">✅ Marcar la sesión 2 completada</button>
+</div>
+<div class="session" id="sesion3">
+<div class="session-number">3</div>
+<h2>5. Sesión 3</h2>
+<p class="session-duration">⏱ 60 minutos</p>
+<p class="small-note"><strong>Competencias principales:</strong> C2 reconocer arcos y bóvedas · C3 modelizar con parábolas · C4 discutir límites · C6 justificar en español.</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> reconocer distintos modelos de arco, distinguir entre parábola y catenaria a un nivel introductorio y comprender de manera intuitiva su interés estructural.</p><p><strong>Producción esperada:</strong> construcción y comentario de un modelo curvo sencillo, con comparación razonada entre distintas formas de arco.</p></div>
+<p class="session-description">
+<strong>Situación de partida:</strong> comparación entre distintos tipos de arcos para analizar por qué ciertas formas curvas pueden resultar especialmente eficaces desde el punto de vista estructural. La sesión distingue entre el uso histórico de la catenaria en Gaudí y la parábola como modelo escolar accesible para introducir la modelización.
+</p>
+<div class="video-link">
+ 🎬 <strong>Vídeo sugerido:</strong>
+<a href="https://www.youtube.com/watch?v=GQvUOZGs_Ns" rel="noopener" target="_blank">
+ Documental Gaudí, el arquitecto (MNAC)
+ </a>
+ (fragmento seleccionado: obra y pensamiento arquitectónico)
+</div>
+<p class="session-description">
+<strong>Modelización matemática:</strong> estudio de la ecuación cuadrática asociada a una parábola a partir de puntos dados, con especial atención al vértice, la apertura y la interpretación geométrica de los parámetros.
+</p>
+<p class="session-description">
+<strong>Aplicación arquitectónica:</strong> análisis de bóvedas y arcos en relación con la distribución de esfuerzos y con la búsqueda de formas compatibles con materiales trabajados principalmente a compresión.
+</p>
+<p class="session-description">
+<strong>Exploración digital:</strong> uso de herramienta digital guiada para modificar parámetros y observar cómo cambia la forma del arco y su posible uso arquitectónico.
+</p>
+<div class="ficha-link">
+<a class="btn-ficha" href="23-Fichas-Curso-Gaudi-parabolas-bovedas.html" rel="noopener" target="_blank">📄 Ficha Curso 23: parábolas, arcos y bóvedas</a>
+<a class="btn-ficha" href="23-Fichas-Trabajo-Gaudi-parabolas-bovedas.html" rel="noopener" target="_blank">📄 Ficha Trabajo 23: parábolas, arcos y bóvedas</a>
+</div>
+<button class="btn-complete" data-session="3" type="button">✅ Marcar la sesión 3 completada</button>
+</div>
+<div class="session" id="sesion4">
+<div class="session-number">4</div>
+<h2>6. Sesión 4</h2>
+<p class="session-duration">⏱ 60 minutos</p>
+<p class="small-note"><strong>Competencias principales:</strong> C2 identificar patrones · C3 calcular radios y parámetros · C4 validar límites del modelo · C5 crear un motivo · C6 argumentar en español.</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> distinguir distintos tipos de espirales, relacionar crecimiento y forma y describir la función estética y estructural de patrones inspirados en la naturaleza.</p><p><strong>Producción esperada:</strong> croquis analítico o construcción digital de una espiral, tabla de valores y comentario breve sobre su presencia o inspiración en la obra de Gaudí.</p></div>
+<p class="session-description">
+<strong>Situación de partida:</strong> observación de elementos decorativos y compositivos para identificar patrones de repetición, rotación, crecimiento y organización espacial.
+</p>
+<p class="session-description">
+<strong>Tipos de espirales:</strong> presentación comparada de la espiral de Arquímedes, la espiral logarítmica y la referencia cultural a la sucesión de Fibonacci como herramienta de lectura de ciertos crecimientos naturales.
+</p>
+<p class="session-description">
+<strong>Relación con la naturaleza:</strong> análisis de ejemplos procedentes de conchas, plantas o formaciones naturales para comprender por qué determinadas curvas resultan visualmente familiares y eficaces en ornamentación y diseño.
+</p>
+<p class="session-description">
+<strong>Modelización y creación:</strong> construcción de una espiral en coordenadas polares o mediante una aproximación geométrica adaptada al nivel del grupo, seguida de una transferencia a un motivo decorativo inspirado en Gaudí.
+</p>
+<div class="ficha-link">
+<a class="btn-ficha" href="24-Fichas-Curso-Gaudi-espirales-exponenciales.html" rel="noopener" target="_blank">📄 Ficha Curso 24: espirales y crecimiento exponencial</a>
+<a class="btn-ficha" href="24-Fichas-Trabajo-Gaudi-espirales-exponenciales.html" rel="noopener" target="_blank">📄 Ficha Trabajo 24: espirales y crecimiento exponencial</a>
+</div>
+<button class="btn-complete" data-session="4" type="button">✅ Marcar la sesión 4 completada</button>
+</div>
+<div class="session" id="sesion5">
+<div class="session-number">5</div>
+<h2>7. Sesión 5</h2>
+<p class="session-duration">⏱ 120 minutos (sesión doble)</p>
+<p class="small-note"><strong>Competencias principales:</strong> C3 convertir escalas · C4 controlar calidad · C5 construir una maqueta · C6 presentar y mediar.</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> movilizar de forma integrada los conceptos trabajados en el módulo y justificar decisiones de diseño, escala y construcción en una producción colectiva.</p><p><strong>Producción esperada:</strong> maqueta comentada con apoyo visual y breve presentación final en español.</p></div>
+<p class="session-description">
+<strong>Objetivo del proyecto:</strong> elaboración de una maqueta inspirada en la Sagrada Familia u otra obra estudiada, integrando elementos lineales, parabólicos y ornamentales según el nivel y el tiempo disponible.
+</p>
+<p class="session-description">
+<strong>Fase de planificación:</strong> distribución de tareas, definición de la escala, selección de materiales y elaboración de bocetos y cálculos preparatorios.
+</p>
+<p class="session-description">
+<strong>Fase de construcción:</strong> realización colaborativa de la maqueta con atención a la precisión, la estabilidad, la legibilidad de las formas y la coherencia estética del conjunto.
+</p>
+<p class="session-description">
+<strong>Presentación final:</strong> explicación oral del proceso seguido, de los modelos matemáticos utilizados y de las elecciones visuales y estructurales del equipo.
+</p>
+<div class="ficha-link">
+<a class="btn-ficha" href="25-Fichas-Curso-Gaudi-maqueta-construccion.html" rel="noopener" target="_blank">📄 Ficha Curso 25: maqueta matemática y construcción</a>
+<a class="btn-ficha" href="25-Fichas-Trabajo-Gaudi-maqueta-construccion.html" rel="noopener" target="_blank">📄 Ficha Trabajo 25: maqueta matemática y construcción</a>
+</div>
+<button class="btn-complete" data-session="5" type="button">✅ Marcar la sesión 5 completada</button>
+</div>
+</div>
+<div id="sintesis-pedagogica" style="background: white; border-radius: 12px; padding: 40px; margin: 60px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-left: 5px solid #2f80a0;">
+<h2 style="color: #2f80a0; margin-bottom: 20px;">8. Síntesis</h2>
+<p style="font-size: 1.05em; text-align: justify; line-height: 1.8; color: #555;">
+ El alumnado recorre una secuencia que articula observación arquitectónica, análisis geométrico, modelización y producción material. A lo largo del módulo, aprende a identificar relaciones entre forma, función y estructura en edificios emblemáticos de Gaudí y a distinguir entre interpretación visual, idealización matemática y realidad constructiva.
+ </p>
+<p style="font-size: 1.05em; text-align: justify; line-height: 1.8; color: #555;">
+<strong>Idea clave:</strong> las matemáticas permiten describir y comprender decisiones arquitectónicas concretas. En este módulo, la geometría y las funciones se presentan como herramientas para leer la arquitectura, dialogar con la naturaleza y comunicar una interpretación razonada y documentada de las formas.
+ </p>
+</div>
+</div>
+
+<footer class="footer" role="contentinfo"><div class="footer-content"><p><strong>🌄 Ficha Curso DNL mathématiques en espagnol Lycée Pensionnat Sacré-Cœur, Reims © 2027 - CC-BY-NC-SA 4.0</strong></p></div></footer><script defer src="modulo5.min.js?v=20260808-2"></script></body>
+</html>
