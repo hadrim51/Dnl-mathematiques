@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>Première — Módulo 8 — Función cuadrática y arte cinético</title><meta content="Módulo 8 DNL Matemáticas en español: función cuadrática, arte cinético latinoamericano, parábolas, percepción óptica, instalación y performance matemática." name="description">
+<style id="module8-core">*,::before,::after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.62 Inter,Segoe UI,Arial,sans-serif}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:99;padding:10px;background:#fff}.header{padding:64px 20px;text-align:center;color:#fff}.header-content,.container{width:min(1180px,calc(100% - 32px));margin:auto}.top-actions{text-align:right}.lang-switch,.btn-ficha{display:inline-block;padding:8px 12px;border:1px solid transparent;border-radius:999px;font-weight:750;text-decoration:none}.header h1{font-size:clamp(2rem,5vw,4rem);line-height:1.08}.subtitle,.level{font-weight:700}.progress-bar{height:16px;overflow:hidden;border-radius:999px;background:#ffffff38}.progress-fill{width:0;height:100%;font-size:.72rem;font-weight:900;transition:width .2s}.btn-reset-progress,.btn-complete{border:0;border-radius:999px;padding:10px 14px;font-weight:800;cursor:pointer}.container{padding:20px 0}.overview,.session,.pedagogy-section,.module-competences,.evaluation-box,.closing-box{margin:24px 0;padding:24px;border:1px solid;border-left:6px solid;border-radius:18px}.pedagogy-grid,.comp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.ped-card,.comp-item,.synthesis,.session-focus{padding:14px;border:1px solid;border-left:6px solid;border-radius:14px}.tag{display:inline-block;margin:4px;padding:6px 10px;border-radius:999px;font-weight:750}.matrix-wrap{overflow:auto}.matrix{width:100%;border-collapse:collapse}.matrix :is(th,td){padding:10px;border:1px solid;text-align:left}.nav{margin:16px 0 24px;padding:16px 20px;border-left:5px solid;border-radius:12px}.nav-title{margin-bottom:10px;font-weight:800}.nav-inner{display:flex;flex-wrap:wrap;gap:10px 18px}.nav a{font-weight:750;text-decoration:none;white-space:nowrap}.nav a:is(:hover,:focus-visible){text-decoration:underline;outline:2px solid currentColor;outline-offset:3px;border-radius:5px}.session{position:relative;border-top:6px solid}.session-number{float:right;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;color:#fff;font-weight:900}.session-duration{display:inline-block;padding:6px 10px;border-radius:999px;font-weight:700}.ficha-pair{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}.btn-ficha{color:#fff;background:var(--m8-teal)}.footer{padding:24px;text-align:center;border-top:8px solid}.app-status{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);margin:0;padding:8px 12px;border-radius:999px;background:#22302f;color:#fff}.app-status:empty{display:none}.session-completed{outline:3px solid #1f8a7038}:target{scroll-margin-top:20px}@media(max-width:768px){.nav-inner{overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}.overview,.session,.pedagogy-section,.module-competences,.evaluation-box,.closing-box{padding:18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.progress-fill{transition:none}}@media print{.nav,.btn-complete,.btn-reset-progress,.app-status{display:none}.header{padding:20px;background:#fff!important;color:#111}.overview,.session,.pedagogy-section,.module-competences,.evaluation-box,.closing-box{box-shadow:none!important;break-inside:avoid}.footer{background:#fff!important;color:#111!important;border-top:2px solid #111}}</style>
+<style id="palette-premiere-modulo8">
+:root{
+  --m8-ink:#22302f;
+  --m8-teal:#007c78;
+  --m8-teal-dark:#0f5554;
+  --m8-rust:#9f4f2f;
+  --m8-rust-dark:#5f2b1b;
+  --m8-gold:#d6a642;
+  --m8-gold-light:#f1d08a;
+  --m8-ivory:#fff7e8;
+  --m8-paper:#fffdf7;
+  --m8-sand:#f3eadc;
+  --m8-border:#e4d2b6;
+}
+body{
+  background:radial-gradient(circle at top left,rgba(0,124,120,.10),transparent 28%),linear-gradient(135deg,var(--m8-ivory) 0%,var(--m8-sand) 100%)!important;
+  color:var(--m8-ink)!important;
+}
+.header{
+  background:linear-gradient(135deg,rgba(34,48,47,.97),rgba(0,124,120,.88) 45%,rgba(159,79,47,.92))!important;
+  border-bottom-color:var(--m8-gold)!important;
+  box-shadow:0 8px 32px rgba(34,48,47,.35)!important;
+}
+.progress-fill{background:linear-gradient(90deg,var(--m8-teal),var(--m8-gold),var(--m8-rust))!important}
+.overview,.nav,.session,.pedagogy-section,.module-competences,.evaluation-box,.closing-box{
+  background:var(--m8-paper)!important;
+  border-color:var(--m8-border)!important;
+  box-shadow:0 8px 24px rgba(95,43,27,.14)!important;
+}
+.overview,.pedagogy-section,.module-competences,.evaluation-box,.closing-box{border-left-color:var(--m8-teal)!important}
+.nav{border-left-color:var(--m8-rust)!important}
+.overview h2,.pedagogy-section h2,.module-competences h2,.evaluation-box h2,.closing-box h2,
+.nav-title,.nav a,.session h3,.comp-item strong{color:var(--m8-rust)!important}
+.nav a:hover{color:var(--m8-teal)!important}
+.synthesis,.session-focus,.ped-card,.callout{
+  background:linear-gradient(135deg,rgba(0,124,120,.06),rgba(214,166,66,.08))!important;
+  border-color:rgba(0,124,120,.18)!important;
+  border-left-color:var(--m8-teal)!important;
+}
+.session{border-top-color:var(--m8-gold)!important}
+.session-number{background:linear-gradient(135deg,var(--m8-rust),#9b2f2f)!important}
+.session-duration,.tag{background:linear-gradient(135deg,var(--m8-gold),var(--m8-gold-light))!important;color:#21170f!important}
+.btn-complete{background:linear-gradient(135deg,#1f6f8b,var(--m8-teal))!important;color:#fff!important}
+.btn-reset-progress{background:#fff!important;color:var(--m8-ink)!important}
+.comp-item,.matrix{background:#fff!important;border-color:var(--m8-border)!important}
+.matrix th{background:linear-gradient(90deg,var(--m8-ink),var(--m8-teal-dark))!important;color:#fff!important}
+.matrix td{border-bottom-color:var(--m8-border)!important}
+.lang-switch{background:linear-gradient(135deg,#fffaf0,#f2c14e)!important;color:#271d15!important;border-color:rgba(39,29,21,.18)!important}
+.lang-switch:hover{background:linear-gradient(135deg,#f2c14e,#d9a441)!important;color:#271d15!important}
+.footer{background:linear-gradient(90deg,var(--m8-ink),var(--m8-teal-dark),var(--m8-rust-dark))!important;border-top-color:var(--m8-gold)!important;color:#fff!important}
+.footer p{color:#fff!important}
+.session-completed{outline:3px solid rgba(31,138,112,.22)!important}
+</style>
+<meta content="#153e75" name="theme-color"></head>
+<body><a class="skip" href="#main">Ir al contenido principal</a>
+<div class="header" id="top"><div class="header-content"><div class="top-actions"><a aria-label="Abrir la versión francesa del módulo" class="lang-switch" href="Premiere-Modulo8.html">🇫🇷 Version française</a></div><h1>Première — Módulo 8 — Función cuadrática y arte cinético</h1><p class="subtitle">Soto · Cruz-Diez · parábolas · luz · interactividad · performance</p><p class="level">DNL Matemáticas en español · 5 sesiones · 6 horas</p><div class="progress-bar-wrapper"><div class="progress-bar"><div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-fill" id="progressBar" role="progressbar">0%</div></div><p class="session-counter" id="sessionCounter">0 / 5 sesiones terminadas</p><button class="btn-reset-progress" data-action="reset" type="button">🔄 Reiniciar el progreso</button></div></div></div>
+<div class="container" id="main" role="main">
+<div class="overview" id="vision-general"><h2>1. Visión general del módulo 8</h2><p>Este módulo explora la función cuadrática de segundo grado a través del arte cinético latinoamericano. El alumnado observa trayectorias, modeliza parábolas, interpreta parámetros, descubre los efectos ópticos de Soto y Cruz-Diez, crea una instalación y termina con una performance matemática.</p><div class="synthesis"><strong>Idea clave del módulo:</strong><br>Soto y Cruz-Diez → parábolas y óptica → función cuadrática → instalación cinética → interactividad → performance pública.</div></div>
+<div class="overview" id="enfoque-dnl"><h2>2. Enfoque DNL</h2><p>La DNL se entiende aquí como una disciplina no lingüística trabajada en español: el alumnado aprende matemáticas mientras desarrolla precisión léxica, argumentación oral y sensibilidad cultural.</p><div class="synthesis"><strong>Criterio de éxito:</strong><br>Observar, modelizar, verificar y comunicar una idea matemática en español con vocabulario claro.</div></div>
+<div class="pedagogy-section" id="accesibilidad-premiere"><h2>3. Accesibilidad en Première — niveles de dificultad</h2><p class="small-note">El módulo mantiene un nivel ambicioso, pero cada sesión propone una entrada visual, una ayuda explícita y una producción breve en español.</p><div class="pedagogy-grid"><div class="ped-card"><h3>Apoyo</h3><p>Observar, nombrar los objetos matemáticos y producir una frase sencilla.</p></div><div class="ped-card"><h3>Consolidación</h3><p>Verificar una propiedad con un esquema, una medida o un cálculo guiado.</p></div><div class="ped-card"><h3>Profundización</h3><p>Comparar varias representaciones o modelos y justificar la elección.</p></div><div class="ped-card"><h3>Desafío</h3><p>Crear, presentar y mejorar una producción matemática y cultural.</p></div></div></div>
+<div class="module-competences" id="competencias-modulo"><h2>4. Competencias del módulo 8</h2><p class="small-note">Progresión de las cinco sesiones: observar → modelizar → crear → presentar → argumentar.</p><div class="comp-grid"><div class="comp-item"><strong>C1 · Visualizar</strong><br>Reconocer parábolas, trayectorias, motivos ópticos y movimientos.</div><div class="comp-item"><strong>C2 · Modelizar</strong><br>Asociar una forma con una función cuadrática.</div><div class="comp-item"><strong>C3 · Calcular</strong><br>Manipular parámetros, vértices, aperturas y valores simples.</div><div class="comp-item"><strong>C4 · Relacionar arte y ciencia</strong><br>Comprender los vínculos entre luz, percepción y función.</div><div class="comp-item"><strong>C5 · Crear</strong><br>Diseñar una producción cinética con restricciones matemáticas.</div><div class="comp-item"><strong>C6 · Comunicar</strong><br>Presentar una obra en español con vocabulario matemático.</div></div><div class="matrix-wrap"><table class="matrix"><thead><tr><th>Sesión</th><th>Materiales de referencia</th><th>Competencias dominantes</th><th>Producción esperada</th></tr></thead><tbody><tr><td>1. Soto y las parábolas</td><td>36 ficha de curso Soto-Parábolas + 36 ficha de trabajo Soto-Parábolas</td><td>C1, C2, C3, C6</td><td>Boceto o miniinstalación penetrable con ecuación.</td></tr><tr><td>2. Cruz-Diez: geometría óptica</td><td>37 ficha de curso Cruz-Diez-Óptica + 37 ficha de trabajo Cruz-Diez-Óptica</td><td>C1, C3, C4, C6</td><td>Esquema óptico y explicación.</td></tr><tr><td>3. Instalación cinética</td><td>38 ficha de curso Crear Arte Cinético + 38 ficha de trabajo Crear Arte Cinético</td><td>C2, C3, C5, C6</td><td>Instalación cinética con al menos tres parábolas justificadas.</td></tr><tr><td>4. Interactividad</td><td>39 ficha de curso Instalación Interactiva + 39 ficha de trabajo Instalación Interactiva</td><td>C3, C4, C5, C6</td><td>Pseudocódigo o prototipo que relaciona un sensor con un parámetro y una respuesta visual.</td></tr><tr><td>5. Performance-Movimiento</td><td>40 ficha de curso Performance-Movimiento + 40 ficha de trabajo Performance-Movimiento</td><td>C1, C3, C5, C6</td><td>Performance o mediación oral con trayectoria, ritmo, escala y argumento matemático.</td></tr></tbody></table></div></div>
+<div class="pedagogy-section" id="marco-pedagogico"><h2>5. Marco pedagógico del módulo 8</h2><div><span class="tag">Función cuadrática</span><span class="tag">Arte cinético</span><span class="tag">Soto</span><span class="tag">Cruz-Diez</span><span class="tag">interactividad guiada</span><span class="tag">Performance</span></div><div class="pedagogy-grid"><div class="ped-card"><h3>Objetivos generales</h3><ul><li>Construir un vocabulario matemático en español.</li><li>Relacionar las nociones del programa con una producción cultural o artística.</li><li>Justificar los resultados mediante un cálculo, un esquema o una observación.</li><li>Comunicar oralmente de manera clara y estructurada.</li></ul></div><div class="ped-card"><h3>Evaluación continua</h3><ul><li>Comprensión de las nociones matemáticas.</li><li>Calidad de las producciones y de las huellas escritas.</li><li>Exactitud del vocabulario español.</li><li>Participación en la cooperación y en la presentación final.</li></ul></div></div></div></div>
+<div class="container"><nav aria-label="Navegación del módulo" class="nav"><div class="nav-title">📍 Navegación del módulo:</div><div class="nav-inner"><a href="#vision-general">1. Visión general</a><a href="#enfoque-dnl">2. Enfoque DNL</a><a href="#accesibilidad-premiere">3. Accesibilidad</a><a href="#competencias-modulo">4. Competencias</a><a href="#marco-pedagogico">5. Marco pedagógico</a><a href="#sesion1">6.1 Sesión 1</a><a href="#sesion2">6.2 Sesión 2</a><a href="#sesion3">6.3 Sesión 3</a><a href="#sesion4">6.4 Sesión 4</a><a href="#sesion5">6.5 Sesión 5</a><a href="#evaluacion-final-dnl">7. Evaluación</a><a href="#cierre-didactico">8. Cierre</a></div></nav><div class="sessions-container">
+<div class="session" id="sesion1">
+<div class="session-number">1</div>
+<h3>Sesión 6.1 — Jesús Rafael Soto: trayectorias parabólicas</h3>
+<p class="session-duration">⏱ 120 minutos</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> observar trayectorias parabólicas y relacionarlas con una función cuadrática simple.</p><p><strong>Producción esperada:</strong> boceto o miniinstalación Soto-Parábolas con ecuación y breve explicación.</p><p><strong>Competencias C1–C6:</strong> C1, C2, C3, C6</p></div>
+<p class="session-description">La sesión parte de una inmersión en el arte cinético de Jesús Rafael Soto para introducir la parábola como trayectoria y como forma visual.</p>
+<ol class="steps"><li>Observación de un penetrable y descripción de la sensación de movimiento.</li><li>Modelización de una trayectoria mediante y = ax² y luego y = a(x-h)² + k.</li><li>Manipulación de parámetros y comparación de aperturas.</li><li>Creación de un boceto o de un miniobjeto inspirado en Soto.</li></ol>
+<div class="ficha-pair">
+<a class="btn-ficha" href="36-Ficha-Trabajo-Soto-Parabolas.html" rel="noopener noreferrer" target="_blank">📄 Ficha de trabajo: Soto-Parábolas</a>
+<a class="btn-ficha" href="36-Ficha-Curso-soto-parabolas.html" rel="noopener noreferrer" target="_blank">🏔️ Ficha de curso: Soto-Parábolas</a>
+</div>
+<button class="btn-complete" data-session="1" type="button">✅ Marcar la sesión 1 como terminada</button>
+</div>
+<div class="session" id="sesion2">
+<div class="session-number">2</div>
+<h3>Sesión 6.2 — Carlos Cruz-Diez: geometría óptica</h3>
+<p class="session-duration">⏱ 60 minutos</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> relacionar percepción, color, ángulos y funciones periódicas simples.</p><p><strong>Producción esperada:</strong> fisicromía personal o esquema de interferencia acompañado de una frase explicativa.</p><p><strong>Competencias C1–C6:</strong> C1, C3, C4, C6</p></div>
+<p class="session-description">El alumnado descubre cómo el color puede cambiar según el punto de vista y cómo la repetición geométrica puede producir una impresión de movimiento.</p>
+<ol class="steps"><li>Observación de fisicromías y formulación de hipótesis.</li><li>Relación entre ángulo, luz y percepción.</li><li>Lectura guiada de una relación entre frecuencia, velocidad y longitud de onda.</li><li>Creación o análisis de un motivo óptico.</li></ol>
+<div class="ficha-pair">
+<a class="btn-ficha" href="37-Ficha-Trabajo-Cruz-Diez-Optica.html" rel="noopener noreferrer" target="_blank">📄 Ficha de trabajo: Cruz-Diez-Óptica</a>
+<a class="btn-ficha" href="37-Ficha-Curso-Cruz-Diez-Optica.html" rel="noopener noreferrer" target="_blank">🏔️ Ficha de curso: Cruz-Diez-Óptica</a>
+</div>
+<button class="btn-complete" data-session="2" type="button">✅ Marcar la sesión 2 como terminada</button>
+</div>
+<div class="session" id="sesion3">
+<div class="session-number">3</div>
+<h3>Sesión 6.3 — Crear arte cinético con funciones cuadráticas</h3>
+<p class="session-duration">⏱ 60 minutos</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> concebir una producción que respete restricciones sobre los parámetros a, b y c.</p><p><strong>Producción esperada:</strong> instalación o maqueta cinética con al menos tres parábolas justificadas, escala y elección de materiales.</p><p><strong>Competencias C1–C6:</strong> C2, C3, C5, C6</p></div>
+<p class="session-description">La sesión transforma la función cuadrática en restricción creativa para construir una obra colectiva.</p>
+<ol class="steps"><li>Pliego de condiciones: tres parábolas como mínimo, una escala clara y materiales justificados.</li><li>Elección de ecuaciones, verificación con GeoGebra o calculadora y control de alturas en la maqueta.</li><li>Construcción sobre soporte físico.</li><li>Presentación breve del concepto y de los parámetros.</li></ol>
+<div class="ficha-pair">
+<a class="btn-ficha" href="38-Ficha-Trabajo-Crear-Arte-Cinetico.html" rel="noopener noreferrer" target="_blank">📄 Ficha de trabajo: Crear Arte Cinético</a>
+<a class="btn-ficha" href="38-Ficha-Curso-Crear-Arte-Cinetico.html" rel="noopener noreferrer" target="_blank">🏔️ Ficha de curso: Crear Arte Cinético</a>
+</div>
+<button class="btn-complete" data-session="3" type="button">✅ Marcar la sesión 3 como terminada</button>
+</div>
+<div class="session" id="sesion4">
+<div class="session-number">4</div>
+<h3>Sesión 6.4 — Instalación interactiva: parábolas y luz</h3>
+<p class="session-duration">⏱ 60 minutos</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> comprender cómo un parámetro puede variar con una entrada externa medida por un sensor.</p><p><strong>Producción esperada:</strong> esquema de algoritmo o prototipo simple que relacione sensor, parámetro y respuesta visual.</p><p><strong>Competencias C1–C6:</strong> C3, C4, C5, C6</p></div>
+<p class="session-description">El alumnado imagina una obra que responde al espectador: luz, distancia, sonido y parámetros de la función.</p>
+<ol class="steps"><li>Pregunta inicial: ¿cómo puede una obra responder a un espectador?</li><li>Lectura de un pseudocódigo SI / ENTONCES.</li><li>Relación entre sensor, dato medido y parámetro a, h o k.</li><li>Prueba o simulación de una interacción simple: distancia, sonido, luz o brillo LED.</li></ol>
+<div class="ficha-pair">
+<a class="btn-ficha" href="39-Ficha-Trabajo-Instalacion-Interactiva.html" rel="noopener noreferrer" target="_blank">📄 Ficha de trabajo: Instalación Interactiva</a>
+<a class="btn-ficha" href="39-Ficha-Curso-Instalacion-Interactiva.html" rel="noopener noreferrer" target="_blank">🏔️ Ficha de curso: Instalación Interactiva</a>
+</div>
+<button class="btn-complete" data-session="4" type="button">✅ Marcar la sesión 4 como terminada</button>
+</div>
+<div class="session" id="sesion5">
+<div class="session-number">5</div>
+<h3>Sesión 6.5 — Performance-Movimiento: las matemáticas en movimiento</h3>
+<p class="session-duration">⏱ 60 minutos</p>
+<div class="session-focus"><p><strong>Objetivos de aprendizaje:</strong> sintetizar funciones cuadráticas, movimiento corporal, ritmo, velocidad, escala y presentación oral.</p><p><strong>Producción esperada:</strong> performance o mediación oral que explique una parábola viva en un sistema de referencia escénico, con escala, ritmo y argumento matemático.</p><p><strong>Competencias C1–C6:</strong> C1, C3, C5, C6</p></div>
+<p class="session-description">La sesión final propone una coreografía matemática en la que los cuerpos dibujan ecuaciones en el espacio y hacen visible una relación entre trayectoria, tiempo y ritmo.</p>
+<ol class="steps"><li>Reparto de roles: intérpretes, narradores, técnicos y mediadores.</li><li>Colocación de los ejes, del sistema de referencia escénico, de la escala y de los puntos clave.</li><li>Ensayo de una parábola simple y luego de una transformación con ritmo, velocidad o desfase.</li><li>Presentación, mediación oral y balance colectivo.</li></ol>
+<div class="ficha-pair">
+<a class="btn-ficha" href="40-Ficha-Trabajo-Performance-Movimiento.html" rel="noopener noreferrer" target="_blank">📄 Ficha de trabajo: Performance-Movimiento</a>
+<a class="btn-ficha" href="40-Ficha-Curso-Performance-Movimiento.html" rel="noopener noreferrer" target="_blank">🏔️ Ficha de curso: Performance-Movimiento</a>
+</div>
+<button class="btn-complete" data-session="5" type="button">✅ Marcar la sesión 5 como terminada</button>
+</div></div>
+<div class="evaluation-box" id="evaluacion-final-dnl"><h2>7. Evaluación final DNL</h2><p>La evaluación combina exactitud matemática, calidad de la producción artística, justificación de los parámetros y claridad de la presentación oral en español.</p></div><div class="closing-box" id="cierre-didactico"><h2>8. Cierre del módulo 8</h2><p>El módulo permite pasar de una función abstracta a una experiencia visual, sensible y comunicable: una parábola se convierte en movimiento, luz, instalación y argumento matemático.</p></div></div>
+<footer class="footer" role="contentinfo"><p><strong>🌄 Módulo 8 — DNL Matemáticas en español — Lycée-Pensionnat Sacré-Cœur, Reims</strong></p><p class="footer-note">Función cuadrática y arte cinético</p></footer><p aria-label="Estado del progreso" aria-live="polite" class="app-status" id="appStatus" role="status"></p>
+<script>(()=>{let K="m8v2:"+document.documentElement.lang,L=localStorage,d=[],B=document.querySelector("#progressBar"),C=document.querySelector("#sessionCounter"),S=document.querySelector("#appStatus"),N=[...document.querySelectorAll("[data-session]")];try{let x=JSON.parse(L[K]);if(x&&Date.now()-(x.t||0)<15552e6)d=x.d||[]}catch{try{delete L[K]}catch{}}let u=()=>{N.map(x=>x.closest(".session")?.classList.toggle("session-completed",d.includes(+x.dataset.session)));let n=d.length,p=20*n;B&&(B.style.width=p+"%",B.textContent=p+"%",B.ariaValueNow=p);C&&(C.textContent=n+" / 5 "+(document.documentElement.lang==="fr"?"séances terminées":"sesiones terminadas"))},s=()=>{try{L[K]=JSON.stringify({d,t:Date.now()})}catch{S&&(S.textContent=document.documentElement.lang==="fr"?"Progression non enregistrée":"Progreso no guardado")}};u();document.addEventListener("click",e=>{let x=e.target.closest("[data-session],[data-action=reset]");if(!x)return;if(x.dataset.session){let n=+x.dataset.session;d=d.includes(n)?d.filter(i=>i!==n):[...d,n]}else d=[];u();s()})})();</script></body></html>

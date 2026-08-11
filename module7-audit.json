@@ -1,0 +1,56 @@
+{
+  "Premiere-Modulo7.html": {
+    "sections": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "editorial_mentions": [],
+    "unnecessary_escapes": false,
+    "inline_style_attributes": 0,
+    "inline_handlers": 0,
+    "size_bytes": 23511
+  },
+  "Premiere-Modulo7-ES-avec-lien-FR.html": {
+    "sections": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "editorial_mentions": [],
+    "unnecessary_escapes": false,
+    "inline_style_attributes": 0,
+    "inline_handlers": 0,
+    "size_bytes": 22462
+  }
+}

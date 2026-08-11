@@ -1,0 +1,58 @@
+{
+  "Premiere-Modulo8.html": {
+    "sections": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "editorial_mentions": [],
+    "unnecessary_escapes": false,
+    "inline_styles": 0,
+    "inline_handlers": 0,
+    "body_present": true,
+    "size_bytes": 17116
+  },
+  "Premiere-Modulo8-ES.html": {
+    "sections": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sections_ok": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sessions_ok": true,
+    "duplicate_ids": [],
+    "missing_anchors": [],
+    "editorial_mentions": [],
+    "unnecessary_escapes": false,
+    "inline_styles": 0,
+    "inline_handlers": 0,
+    "body_present": true,
+    "size_bytes": 16769
+  }
+}
